@@ -1,0 +1,31 @@
+{
+    // Gitを無効にする
+    "git.enabled": false,
+    "git.ignoreMissingGitWarning": true,
+    // tabはスペース2個
+    "editor.tabSize": 2,
+    // 行末の空白を自動で削除
+    "files.trimTrailingWhitespace": true,
+    // 最後の空行を自動で入れる
+    "files.insertFinalNewline": true,
+    // ファイル開いても連動してexprorerのハイライト動かさない
+    "explorer.autoReveal": false,
+    // エクスプローラーからファイル開くときpreviewじゃなくてふつーに開く
+    "workbench.editor.enablePreview": false,
+    // エディタを開いたとき何もないところからはじめる
+    "workbench.startupEditor": "none",
+    // フォントサイズ
+    "editor.fontSize": 14,
+    // タブの閉じるボタンは左側に欲しい
+    "workbench.editor.tabCloseButton": "left",
+    // マイクロソフトには何も教えたくないその1
+    "telemetry.enableTelemetry": false,
+    // マイクロソフトには何も教えたくないその2
+    "telemetry.enableCrashReporter": false,
+    // 編集したタブは、上のあたりに色をつけて教えて欲しい
+    "workbench.editor.highlightModifiedTabs": true,
+    // いい感じに検索したい
+    "search.smartCase": true,
+    // カラーテーマ
+    "workbench.colorTheme": "Monokai Dimmed"
+}
